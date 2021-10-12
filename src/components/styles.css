@@ -1,0 +1,18 @@
+.click {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+  background: aqua;
+  width: 90%;
+  border-radius: 10px;
+  /* box-shadow: 5px 5px 2px rgb(11, 75, 75); */
+  transition: background .3s ease;
+  
+}
+.click:hover {
+    background: rgb(0, 225, 255);
+    cursor: pointer;
+    
+}
