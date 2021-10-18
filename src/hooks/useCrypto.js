@@ -1,23 +1,24 @@
 import React, { useState } from "react";
 import "./hookStyle.css";
 
-const useCoin = (label, firstState, options) => {
+const useCrypto = (label, firstState, options) => {
   const [state, updateState] = useState(firstState);
-
-  const SelectCoin = () => (
+    
+    
+  const SelectCrypto = () => (
     <div id="frag">
       <label>{label}</label>
       <select onChange={(e) => updateState(e.target.value)} value={state}>
         <option value="">-- Select --</option>
         {options.map((i) => (
-          <option key={i.id} value={i.id}>
-            {i.name}
+          <option key={i.CoinInfo.Id} value={i.CoinInfo.Name}>
+            {i.CoinInfo.FullName}
           </option>
-        ))}
+        ))} 
       </select>
     </div>
   );
-  return [state, SelectCoin, updateState];
+  return [state, SelectCrypto, updateState];
 };
 
-export default useCoin;
+export default useCrypto;

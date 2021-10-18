@@ -1,0 +1,20 @@
+label {
+  font-size: 2rem;
+  margin-top: 10px;
+  display: block;
+}
+
+select {
+  width: 100%;
+  display: block;
+  padding: .6rem;
+  margin-top: .5rem;
+  -webkit-appearance: none;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  text-align: center;
+}
+#frag{
+    padding: 10px 30px;
+}

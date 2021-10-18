@@ -8,11 +8,19 @@
   width: 90%;
   border-radius: 10px;
   /* box-shadow: 5px 5px 2px rgb(11, 75, 75); */
-  transition: background .3s ease;
-  
+  transition: background 0.3s ease;
 }
 .click:hover {
-    background: rgb(0, 225, 255);
-    cursor: pointer;
-    
+  background: rgb(0, 225, 255);
+  cursor: pointer;
+}
+
+#error {
+  background: rgb(238, 255, 0);
+  color: black;
+  border-radius: 10px;
+  padding: 0.5rem;
+  width: 87%;
+
+  margin: auto;
 }
